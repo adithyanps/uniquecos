@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Uniquecos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"> 
+        <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="slick/dist/slicknav.css" rel="stylesheet">
+        <link href="css/fakeLoader.css" rel="stylesheet">
+        <link rel='stylesheet' media='screen and (min-width: 641px) and (max-width: 1347px)' href='css/left_stick.css' />
+        <link href="uniquecos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+<!--        <div id="loading">
+            <img style="top: 50%;margin-top: -128px;margin-left: -128px;position: absolute;left: 50%;"  src="images/LOAD.gif" alt="Loading..." />
+        </div>-->
+        <!--<div class="fakeloader"></div>-->
+        <!--Header starts-->
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <a href="#" class="logo-header">
+                        <img src="images/logo.png" class="img-responsive">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="main-search">
+                        <form>
+                            <div class="input-group-search">
+                                <i class="fa fa-search"></i>
+                                <input class="search_box" placeholder="Search your products, Brand here" type="text">
+                                <input type="submit" value="SEARCH" class="search_btn">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main-menu-right">
+<!--                        <div class="user-profile">
+                            <a href="#">
+                                <i class="fa fa-user"></i>
+                            </a>
+                        </div>-->
+                        <div class="header-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Login</a>
+                                </li>
+                                <li>
+                                    <a href="#">Register</a>
+                                </li>
+<!--                                <li>
+                                    <a href="#">Faq</a>
+                                </li>
+                                <li>
+                                    <a href="#">My Wishlist</a>
+                                </li>-->
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="inner-section">
+            <div class="container">
+<!--                <style>
+
+                    /* div that surrounds Cloud Zoom image and content slider. */
+                    /*                    #surround {
+                                            min-width: 862px;
+                                            max-width: 500px;
+                    
+                                            float: left;
+                                        }*/
+
+
+                </style>-->
+                <div class="profile-section" data-sticky_parent>
+                    <div class="single-product-left" data-sticky_column>
+                        <div class="product_image_section">
+                            <div class="product_image_section_inner">
+                                <!--                            <div id="surround">
+                                                                <div class="thumbnail_list_zoom">
+                                                                    <div id="slider2">
+                                                                        <div class="thumbelina-but vert top">&#706;</div>
+                                                                        <ul class="thumbelina">
+                                                                            <li><img class='cloudzoom-gallery' src="images/z1.png" 
+                                                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'images/zoom1.png' "></li>
+                                                                            <li><img class='cloudzoom-gallery'  src="images/z1.png"  
+                                                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'images/zoom1.png' "></li>
+                                
+                                                                            <li><img class='cloudzoom-gallery'  src="images/z1.png"  
+                                                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'/sites/starplugins/images/jetzoom/large/image3.jpg' "></li>
+                                
+                                                                            <li><img class='cloudzoom-gallery'  src="images/z1.png" 
+                                                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'/sites/starplugins/images/jetzoom/large/image4.jpg' "></li>
+                                                                        </ul>
+                                                                        <div class="thumbelina-but vert bottom">&#707;</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="larg_image_zoom">
+                                                                    <img class="cloudzoom" alt ="Cloud Zoom small image" id ="zoom1" src="images/zoom1.png"
+                                                                         data-cloudzoom='
+                                                                         zoomSizeMode:"image",
+                                                                         autoInside:10'>
+                                                                </div>
+                                
+                                                            </div>-->
+                                <div id="surround">
+                                    <div class="big_zoom_img">
+
+
+                                        <img class="cloudzoom" alt ="Cloud Zoom small image" id ="zoom1" src="images/c.jpg"
+                                             data-cloudzoom='
+                                             zoomSizeMode:"image",
+                                             autoInside:550'>
+                                    </div>
+                                    <div id="slider2">
+                                        <!--<div class="thumbelina-but horiz left">&#706;</div>-->
+                                        <ul class="thumbelina">
+                                            <li><img class='cloudzoom-gallery' src="images/z1.png" 
+                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'images/zoom1.png' ">
+                                                <img src="images/zoom1.png" class="mob_zoom" hidden>
+                                            </li>
+                                            <li><img class='cloudzoom-gallery'  src="images/z1.png"  
+                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'images/c.jpg' ">
+                                                <img src="images/c.jpg" class="mob_zoom" hidden>
+                                            </li>
+
+                                            <li><img class='cloudzoom-gallery'  src="images/z1.png"  
+                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'images/zoom1.png' ">
+                                                <img src="images/zoom1.png" class="mob_zoom" hidden>
+                                            <li><img class='cloudzoom-gallery'  src="images/z1.png"  
+                                                     data-cloudzoom ="useZoom:'.cloudzoom', image:'images/zoom1.png' ">
+                                                <img src="images/zoom1.png" class="mob_zoom" hidden></li>    </ul>
+                                        <!--<div class="thumbelina-but horiz right">&#707;</div>-->
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="product_desc_section_right">
+                            <h2 class="product_title_single">Lorem Ipsum Dolor sit amet</h2>
+                            <div class="product_status">
+                                <ul class="product_list_data">
+                                    <li><div class="list_tit">Country<span class="p_sep">:&nbsp;</span></div> China</li>
+                                    <li class="left_mat"><div class="list_tit">Material<span class="p_sep">:&nbsp;</span></div> <span class="right_mat">Lorem</span></li>
+                                    <li><div class="list_tit"><span class="rating_single">Rating</span><span class="p_sep">:&nbsp;</span></div><img src="images/starp.png" style="float: left;"></li>
+                                    <li class="left_mat"><div class="list_tit">Color 	<span class="p_sep">:&nbsp;</span></div> <span class="right_mat">Green</span></li>
+                                    <li><div class="list_tit">Reviews<span class="p_sep">:&nbsp;</span></div> <span class="reviews_single" style="color: #0096ff;">12 Reviews</span></li>
+                                    <li class="left_mat"><div class="list_tit">Type	<span class="p_sep">:&nbsp;</span></div><span class="right_mat"> Lorem</span></li>
+                                </ul>
+                            </div>
+                            <div class="product_detaild_desc">
+                                <h3 class="single_product_desc">Description</h3>
+                                <div class="product_dsc">
+
+                                    <div class="scrollbar" id="style-4">
+                                        <div class="force-overflow">
+                                            <h4 class="prod_desc_sub_title">Lorem Ipsum</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                            <br>
+                                            <h4 class="prod_desc_sub_title">Lorem Ipsum</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="prod_bottomline">
+
+                            </div>
+                            <div class="price_prod">
+                                <h3 class="price_product">  Price : <i class="fa fa-inr" aria-hidden="true"></i> 30,0000</h3>
+                                <a href="#" class="contact-link">
+                                    Contact Supplier
+                                </a>
+                                <a href="#" class="contact-link">
+                                    Buying Request
+                                </a>
+                                <img src="images/singlelogo.png" class="logo_single">
+
+                            </div>
+                        </div>
+                        <div class="related-product">
+                            <!--<div class="container">-->
+                            <h2 class="rel_title">Related Products</h2>
+                            <div class="product_lists_related">
+                                <ul class="products-list related-list" id="related-slide">
+                                    <li><div class="product_image">
+                                            <img src="images/car1.png" class="img-responsive product_img">
+                                            <img class="premium_badge img-responsive" src="images/premium.png">                            
+                                            <h2 class="product_title">Lorem Ipsum Dolor sit amet</h2>
+                                        </div>
+                                        <div class="product_description">
+                                            <h2 class="product_title p_price">Price : <i class="fa fa-inr"></i> 30,0000</h2>
+                                            <div class="product_data">
+                                                <div class="data_list country">Country &nbsp;:&nbsp; China</div>
+                                                <div class="data_list rating"><span class="rate">Rating&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; </span>	<span class="star-rate"><img src="images/starp.png" class="img-responsive"></span></div>
+                                                <div class="data_list reviews">Reviews	:&nbsp;<span class="rev_count">12 Reviews</span></div>
+                                                <div class="data_list reviews">Minimum Order	: 5</div>
+                                            </div>
+                                            <div class="product_badg">
+                                                <img src="images/trac.png" class="img-responsive">
+                                            </div>
+                                            <div class="contacts">
+                                                <a href="#" class="cont con_supplier">Contact Supplier</a>
+                                                <a href="#" class="cont">Buying Request</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><div class="product_image">
+                                            <img src="images/car1.png" class="img-responsive product_img">
+                                            <img class="premium_badge img-responsive" src="images/premium.png">                            
+                                            <h2 class="product_title">Lorem Ipsum Dolor sit amet</h2>
+                                        </div>
+                                        <div class="product_description">
+                                            <h2 class="product_title p_price">Price : <i class="fa fa-inr"></i> 30,0000</h2>
+                                            <div class="product_data">
+                                                <div class="data_list country">Country &nbsp;:&nbsp; China</div>
+                                                <div class="data_list rating"><span class="rate">Rating&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; </span>	<span class="star-rate"><img src="images/starp.png" class="img-responsive"></span></div>
+                                                <div class="data_list reviews">Reviews	:&nbsp;<span class="rev_count">12 Reviews</span></div>
+                                                <div class="data_list reviews">Minimum Order	: 5</div>
+                                            </div>
+                                            <div class="product_badg">
+                                                <img src="images/trac.png" class="img-responsive">
+                                            </div>
+                                            <div class="contacts">
+                                                <a href="#" class="cont con_supplier">Contact Supplier</a>
+                                                <a href="#" class="cont">Buying Request</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><div class="product_image">
+                                            <img src="images/car2.png" class="img-responsive product_img">
+                                            <img class="premium_badge img-responsive" src="images/premium.png">                            
+                                            <h2 class="product_title">Lorem Ipsum Dolor sit amet</h2>
+                                        </div>
+                                        <div class="product_description">
+                                            <h2 class="product_title p_price">Price : <i class="fa fa-inr"></i> 30,0000</h2>
+                                            <div class="product_data">
+                                                <div class="data_list country">Country &nbsp;:&nbsp; China</div>
+                                                <div class="data_list rating"><span class="rate">Rating&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; </span>	<span class="star-rate"><img src="images/starp.png" class="img-responsive"></span></div>
+                                                <div class="data_list reviews">Reviews	:&nbsp;<span class="rev_count">12 Reviews</span></div>
+                                                <div class="data_list reviews">Minimum Order	: 5</div>
+                                            </div>
+                                            <div class="product_badg">
+                                                <img src="images/bad.png" class="img-responsive">
+                                            </div>
+                                            <div class="contacts">
+                                                <a href="#" class="cont con_supplier">Contact Supplier</a>
+                                                <a href="#" class="cont">Buying Request</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><div class="product_image">
+                                            <img src="images/car1.png" class="img-responsive product_img">
+                                            <img class="premium_badge img-responsive" src="images/premium.png">                            
+                                            <h2 class="product_title">Lorem Ipsum Dolor sit amet</h2>
+                                        </div>
+                                        <div class="product_description">
+                                            <h2 class="product_title p_price">Price : <i class="fa fa-inr"></i> 30,0000</h2>
+                                            <div class="product_data">
+                                                <div class="data_list country">Country &nbsp;:&nbsp; China</div>
+                                                <div class="data_list rating"><span class="rate">Rating&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; </span>	<span class="star-rate"><img src="images/starp.png" class="img-responsive"></span></div>
+                                                <div class="data_list reviews">Reviews	:&nbsp;<span class="rev_count">12 Reviews</span></div>
+                                                <div class="data_list reviews">Minimum Order	: 5</div>
+                                            </div>
+                                            <div class="product_badg">
+                                                <img src="images/trac.png" class="img-responsive">
+                                            </div>
+                                            <div class="contacts">
+                                                <a href="#" class="cont con_supplier">Contact Supplier</a>
+                                                <a href="#" class="cont">Buying Request</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><div class="product_image">
+                                            <img src="images/car2.png" class="img-responsive product_img">
+                                            <img class="premium_badge img-responsive" src="images/premium.png">                            
+                                            <h2 class="product_title">Lorem Ipsum Dolor sit amet</h2>
+                                        </div>
+                                        <div class="product_description">
+                                            <h2 class="product_title p_price">Price : <i class="fa fa-inr"></i> 30,0000</h2>
+                                            <div class="product_data">
+                                                <div class="data_list country">Country &nbsp;:&nbsp; China</div>
+                                                <div class="data_list rating"><span class="rate">Rating&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; </span>	<span class="star-rate"><img src="images/starp.png" class="img-responsive"></span></div>
+                                                <div class="data_list reviews">Reviews	:&nbsp;<span class="rev_count">12 Reviews</span></div>
+                                                <div class="data_list reviews">Minimum Order	: 5</div>
+                                            </div>
+                                            <div class="product_badg">
+                                                <img src="images/bad.png" class="img-responsive">
+                                            </div>
+                                            <div class="contacts">
+                                                <a href="#" class="cont con_supplier">Contact Supplier</a>
+                                                <a href="#" class="cont">Buying Request</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><div class="product_image">
+                                            <img src="images/car1.png" class="img-responsive product_img">
+                                            <img class="premium_badge img-responsive" src="images/premium.png">                            
+                                            <h2 class="product_title">Lorem Ipsum Dolor sit amet</h2>
+                                        </div>
+                                        <div class="product_description">
+                                            <h2 class="product_title p_price">Price : <i class="fa fa-inr"></i> 30,0000</h2>
+                                            <div class="product_data">
+                                                <div class="data_list country">Country &nbsp;:&nbsp; China</div>
+                                                <div class="data_list rating"><span class="rate">Rating&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; </span>	<span class="star-rate"><img src="images/starp.png" class="img-responsive"></span></div>
+                                                <div class="data_list reviews">Reviews	:&nbsp;<span class="rev_count">12 Reviews</span></div>
+                                                <div class="data_list reviews">Minimum Order	: 5</div>
+                                            </div>
+                                            <div class="product_badg">
+                                                <img src="images/trac.png" class="img-responsive">
+                                            </div>
+                                            <div class="contacts">
+                                                <a href="#" class="cont con_supplier">Contact Supplier</a>
+                                                <a href="#" class="cont">Buying Request</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="outside">
+                                    <span id="slider-pre"></span> <span id="slider-nex"></span>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="profile-reviews">
+                            <h2 class="main-head my-connection-head review-profile-head">Reviews</h2><a class="see-more my-connection" href="#">MORE</a>
+                            <div class="testimonials">
+                                <ul class="testimonial-list">
+                                    <li>
+                                        <div class="testimonial">
+                                            <div class="profile_pic">
+                                                <img src="images/test3.png" class="img-responsive test-img">
+                                            </div>
+                                            <div class="test-desc">
+                                                <h4 class="test-name">Lorem Ipsum</h4>
+                                                <p class="review_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                                <div class="test-like-post">
+                                                    <p class="like-count">
+                                                        6
+                                                    </p>
+                                                    <span class="likebox">
+                                                        <span>Thanks for your support</span>
+                                                    </span>
+                                                    <span class="post-date">
+                                                        Posted : Today
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div></li><li>
+                                        <div class="testimonial">
+                                            <div class="profile_pic">
+                                                <img src="images/test2.png" class="img-responsive test-img">
+
+                                            </div>
+                                            <div class="test-desc">
+                                                <h4 class="test-name">Lorem Ipsum</h4>
+                                                <p class="review_desc">  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                                </p>       <div class="test-like-post">
+                                                    <p class="like-count">
+                                                        6
+                                                    </p>
+                                                    <span class="likebox">
+                                                        <span>Thanks for your support</span>
+                                                    </span>
+                                                    <span class="post-date">
+                                                        Posted : Today
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="testimonial">
+                                            <div class="profile_pic">
+                                                <img src="images/test3.png" class="img-responsive test-img">
+                                            </div>
+                                            <div class="test-desc">
+                                                <h4 class="test-name">Lorem Ipsum</h4>
+                                                <p class="review_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                                <div class="test-like-post">
+                                                    <p class="like-count">
+                                                        6
+                                                    </p>
+                                                    <span class="likebox">
+                                                        <span>Thanks for your support</span>
+                                                    </span>
+                                                    <span class="post-date">
+                                                        Posted : Today
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div></li><li>
+                                        <div class="testimonial">
+                                            <div class="profile_pic">
+                                                <img src="images/test2.png" class="img-responsive test-img">
+
+                                            </div>
+                                            <div class="test-desc">
+                                                <h4 class="test-name">Lorem Ipsum</h4>
+                                                <p class="review_desc"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                                </p>  <div class="test-like-post">
+                                                    <p class="like-count">
+                                                        6
+                                                    </p>
+                                                    <span class="likebox">
+                                                        <span>Thanks for your support</span>
+                                                    </span>
+                                                    <span class="post-date">
+                                                        Posted : Today
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="advtbtm">
+                            <img src="images/ubuntu.png" class="img-responsive" style="text-align: center;display: inline-block;">
+                        </div>
+                    </div>
+                    <div class="single-section-right" data-sticky_column>
+                        <img src="images/1.png" class="img-responsive" style="width: 100%;padding-bottom: 10px;">
+                        <img src="images/2.png" class="img-responsive" style="width: 100%;padding-bottom: 10px;">
+                        <img class="img-responsive" src="images/3.png" style="width: 100%;padding-bottom: 10px;">
+                        <img class="img-responsive" src="images/1.png" style="width: 100%;padding-bottom: 10px;">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+         <footer>
+            <div class="footer-section">
+<!--                <div class="footer-links">
+                    <div class="footer-block">
+                        <h2 class="foot-title">
+                            Customer Service
+                        </h2>
+                        <ul>
+                            <li> <a href="#"> Help Center</a></li>
+                            <li> <a href="#">Contact Us</a></li>
+                            <li> <a href="#">Report Abuse</a></li>
+                            <li> <a href="#">Submit a Dispute</a></li>
+                            <li> <a href="#">Policies & Rules</a></li>
+                            <li> <a href="#">Get Paid for Your Feedback</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-block">
+                        <h2 class="foot-title">
+                            About Us
+                        </h2>
+
+
+                        <ul>
+                            <li> <a href="#"> About ieto</a></li>
+                            <li> <a href="#">About ieto connect</a></li>
+                            <li> <a href="#">Sitemap</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-block">
+                        <h2 class="foot-title">
+                            Buy on ieto.com
+                        </h2>
+                        <ul>
+
+
+
+                            <li> <a href="#">By Category</a></li>
+                            <li> <a href="#">Get Quotations  </a></li>
+                            <li> <a href="#">Wholesaler</a></li>
+                            <li> <a href="#">Popular Product Trends</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-block">
+                        <h2 class="foot-title">
+                            Customer Service
+                        </h2>
+                        <ul>
+                            <li> <a href="#">Supplier Memberships</a></li>
+                            <li> <a href="#">Learning Center</a></li>
+                            <li> <a href="#">Training Center</a></li>
+                            <li> <a href="#">Buying Request Hub</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+                <div class="subscribe-footer">
+<!--                    <div class="subscribe">
+                        <input type="text" class="subs_text" placeholder="Type your Email here">
+                        <input type="submit" value="Subscribe" class="subs_btn">
+                    </div>-->
+                    <div class="social-media-footer">
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+<!--            <div class="footer-last">
+                <div class="footer-policy">
+                    <span class="policy">Policies&nbsp;:&nbsp;</span>
+                    <ul class="footer-last-links">
+                        <li><a href="#">Returns Policy</a></li>
+                        <li> <a href="#">Terms of use</a></li>
+                        <li> <a href="#"> Security</a></li>
+                        <li><a href="#"> Privacy Infringement</a></li>
+                    </ul>
+                </div>
+                <div class="copywrite">
+                    <span> © 2016<a href="#" target="_blank"> ieto.com.</a></span>
+                </div>
+            </div>-->
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/fakeLoader.min.js"></script>
+        <script src="jquery.bxslider/jquery.bxslider.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="slick/dist/jquery.slicknav.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".fakeloader").fakeLoader({
+                    timeToHide: 3000,
+                    bgColor: "#0096ff",
+                    spinner: "spinner7"
+                });
+            });
+        </script>
+
+        <script>
+            jQuery(window).load(function () {
+                jQuery('#slider-pre').hide();
+                jQuery('#slider-prev').hide();
+                jQuery('#slider-pr').hide();
+                jQuery('.bxslider_home').bxSlider({
+                    pager: true,
+                    controls: false,
+                    auto: true
+                });
+                if (screen.width <= 1366) {
+                    jQuery('#business').bxSlider({
+                        slideWidth: 220,
+                        minSlides: 2,
+                        maxSlides: 6,
+                        moveSlides: 1,
+                        slideMargin: 0,
+                        pager: false,
+                        nextText: '<i class="fa fa-angle-right"></i>',
+                        prevText: '<i class="fa fa-angle-left"></i>',
+                        nextSelector: '#slider-next',
+                        prevSelector: '#slider-prev'
+                    });
+                    jQuery('#individual-slide').bxSlider({
+                        slideWidth: 220,
+                        minSlides: 2,
+                        maxSlides: 6,
+                        moveSlides: 1,
+                        slideMargin: 0,
+                        pager: false,
+                        nextText: '<i class="fa fa-angle-right"></i>',
+                        prevText: '<i class="fa fa-angle-left"></i>',
+                        nextSelector: '#slider-nex',
+                        prevSelector: '#slider-pre'
+                    });
+                    jQuery('#product-slide').bxSlider({
+                        slideWidth: 220,
+                        minSlides: 2,
+                        maxSlides: 6,
+                        moveSlides: 1,
+                        slideMargin: 0,
+                        pager: false,
+                        nextText: '<i class="fa fa-angle-right"></i>',
+                        prevText: '<i class="fa fa-angle-left"></i>',
+                        nextSelector: '#slider-ne',
+                        prevSelector: '#slider-pr'
+                    });
+
+                }
+                if (screen.width >= 1367) {
+                    jQuery('#business').bxSlider({
+                        slideWidth: 310,
+                        minSlides: 2,
+                        maxSlides: 6,
+                        moveSlides: 1,
+                        slideMargin: 0,
+                        pager: false,
+                        nextText: '<i class="fa fa-angle-right"></i>',
+                        prevText: '<i class="fa fa-angle-left"></i>',
+                        nextSelector: '#slider-next',
+                        prevSelector: '#slider-prev'
+                    });
+                    jQuery('#individual-slide').bxSlider({
+                        slideWidth: 310,
+                        minSlides: 2,
+                        maxSlides: 6,
+                        moveSlides: 1,
+                        slideMargin: 0,
+                        pager: false,
+                        nextText: '<i class="fa fa-angle-right"></i>',
+                        prevText: '<i class="fa fa-angle-left"></i>',
+                        nextSelector: '#slider-nex',
+                        prevSelector: '#slider-pre'
+                    });
+                    jQuery('#product-slide').bxSlider({
+                        slideWidth: 310,
+                        minSlides: 2,
+                        maxSlides: 6,
+                        moveSlides: 1,
+                        slideMargin: 0,
+                        pager: false,
+                        nextText: '<i class="fa fa-angle-right"></i>',
+                        prevText: '<i class="fa fa-angle-left"></i>',
+                        nextSelector: '#slider-ne',
+                        prevSelector: '#slider-pr'
+                    });
+
+
+                }
+                jQuery('#slider-nex').click(function () {
+                    jQuery('#slider-pre').show();
+                });
+                jQuery('#slider-next').click(function () {
+                    jQuery('#slider-prev').show();
+                });
+                jQuery('#slider-ne').click(function () {
+                    jQuery('#slider-pr').show();
+                });
+
+            });
+            jQuery(document).ready(function () {
+                jQuery('#menu_category').slicknav({
+                    label: 'Category',
+                    prependTo: '.sidebar-category'
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            jQuery(window).load(function () {
+                jQuery('#loading').hide();
+            });
+        </script>
+
+        <!--Footer ends-->
+    </body>
+</html>

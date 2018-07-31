@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2016, 3:16:20 PM
+    Author     : Use
+*/
+
+
+
+.sidebar_main_menu_left:hover,div.sidebar_main_menu_left.expanded {
+    width: 320px;
+    overflow:visible;
+}
+.sidebar-category li{
+    background:#f4f4f4;
+}
+
+.sidebar_main_menu_left {
+    background:#f4f4f4;
+    border-right:1px solid #e5e5e5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    /*height:100%;*/
+    left:0;
+    width:55px;
+    overflow:hidden;
+    -webkit-transition:width .05s linear;
+    transition:width .05s linear;
+    -webkit-transform:translateZ(0) scale(1,1);
+    z-index:1000;
+}
+
+.sidebar_main_menu_left > ul {
+    margin: 7px 0;
+    margin-left: 20px;
+}
+.desc_sidebar {
+    padding-left: 15px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.sidebar_main_menu_left li {
+    position: relative;
+    display: block;
+    width: 320px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sidebar_main_menu_left li>a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+    -webkit-transition:all .1s linear;
+    transition:all .1s linear;
+
+}
+
+.sidebar_main_menu_left .nav-icon {
+    position:relative;
+    display:table-cell;
+    width:60px;
+    height:36px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+}
+
+.sidebar_main_menu_left .nav-text {
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    width:190px;
+
+}
+
+.sidebar_main_menu_left>ul.logout {
+    left:0;
+    bottom:0;
+}
+.section_left_stick{
+    position: relative;
+
+    width: 100%;float: left;
+
+    /*position: absolute;*/
+}
+.no-touch .scrollable.hover {
+    overflow-y:hidden;
+}
+.banner-slider {
+    width: 100%!important;
+}
+.no-touch .scrollable.hover:hover {
+    overflow-y:auto;
+    overflow:visible;
+}
+
+
+
+.sidebar_main_menu_left .fa.fa-angle-right {
+    display: none;
+}
+
+.bxslider_home img{
+    width: 100%;
+}
+/*            nav ul,nav li {
+                outline:0;
+                margin:0;
+                padding:0;
+            }*/
+.sidebar_main_menu_left li:hover>a,div.sidebar_main_menu_left li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page div.dashboard-menu ul li:hover a,.dashboard-page div.dashboard-menu ul li.active a {
+    /*color:#fff;*/
+    /*background-color:#5fa2db;*/
+}
+.sidebar_area_left {
+    float: left;
+
+    padding-left: 65px;
+    width: 100%;
+    height: 100%;
+}
+.sidebar-main{
+    padding-right: 5px;
+}
+
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
